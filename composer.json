@@ -1,0 +1,23 @@
+{
+    "name": "geek-dc/hello",
+    "authors": [
+        {
+            "name": "derekchan",
+            "email": "dchan0831@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "GeekDC\\Hello\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "GeekDC\\Hello\\HelloServiceProvider"
+            ]
+        }
+    }
+}
+
